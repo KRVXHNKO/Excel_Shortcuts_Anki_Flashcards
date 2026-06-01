@@ -1,0 +1,144 @@
+.card {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  color: #efefef;
+  background-color: #efefef;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section {
+  background-color: #efefef;
+  border-radius: 12px;
+  padding: 25px;
+  border: 1px solid #101010;;
+}
+
+.description-section {
+  background-color: #101010;
+  margin: 0px;
+  border: 1px solid #101010;
+}
+
+.word-section h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px;
+  color: #000000;
+}
+
+
+.label {
+  font-weight: 600;
+  font-size: 16px;
+  color: #808080;
+  display: block;
+  margin-bottom: 1px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eeeeee;
+  margin: 4px 0;
+}
+
+p, .word-section {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+}
+
+.shortcut {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.fkey {
+  width: 80px;
+  height: 60px;
+
+  display: flex;
+  flex: 0 0 90px;
+  align-items: flex-end;    
+  justify-content: flex-end; 
+
+  padding-right: 12px; 
+  padding-bottom: 6px;
+
+  background: #cccccc;
+  border: 3px solid #bbbbbb;
+  border-radius: 10px;
+
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+
+  box-sizing: border-box;
+;
+
+  user-select: none;
+}
+
+
+.key {
+    width: 60px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #cccccc;
+    border: 3px solid #bbbbbb;
+    border-radius: 10px;
+    
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.plus {
+  color: #000000;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.shortcut {
+  display: flex;
+  gap: 7px;
+}
+
+.shortcut {
+  margin-bottom: 14px;
+}
+
+.description {
+    color: #000000 !important;
+}
+
+.back-section {
+    color: #000000;
+}
